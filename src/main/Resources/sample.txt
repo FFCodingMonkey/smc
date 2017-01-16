@@ -1,0 +1,27 @@
+msgFormat=1
+msgID=MSG
+msgMax=999
+msgAllowDEBUG=true
+msgAllowINFO=true
+msgAllowWARN=true
+msgAllowERROR=true
+msgAllowFATAL=false
+msgAllowParameter=false
+msgAllowSpatial=true
+msgLang=gb
+* comments are created with * on first column
+* please note, that the encoding is expected to be UTF-8
+MSG000
+MSG001I=App Version Copyright
+MSG002D=The message with ID=1 has the following informations:
+MSG003D=App (the application name)
+MSG004D=Version (the current version)
+MSG005D=Copyright (the copyright)
+MSG006F=this line will produce an error because F(atal) is not allowed
+MSG007E=If you limit the record length of the message to value (see msglength about) this length must not be execeeded (link this one)
+MSG008W=this is a warning message
+MSG009V=fail woth wrong message class (V is unknown)
+MSG009E=fail: you can not have duplicate msg numbers
+TXT010E=fail: the MSGID ist wrong (must be MSG, see msgid)
+MSG011W=this will produce a warning because msg 10 is missing
+
